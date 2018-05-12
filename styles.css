@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato');
+
+
+body {
+  background:black;
+  color:white;
+}
+h1{
+  font-size:80px;
+    font-family:"Lato";
+  margin:0px;
+  padding:0px;
+
+}
+h2  {
+  font-family:"Dancing Script";
+  font-size:60px;
+  margin:0px;
+  padding:0px;
+}
+p
+{
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  font-family:"Lato";
+  font-size:40px;
+  }
+.temp{
+  font-size :20px;
+  margin:0px;
+  padding:0px;
+}
+.change-scale{
+  font-size :20px;
+  margin:0px;
+  padding:0px;
+}
+.weather-image{
+  height:80px;
+  width:80px;
+}
+.change-scale:hover{
+    color:red;
+  cursor:pointer;
+}
+.change-scale{
+  color:blue;
+}
+@media screen and (max-width: 767px) {
+  h1{
+  font-family:"Dancing Script";
+  font-size:10vw;
+}
+h2  {
+  font-family:"Lato";
+  font-size:8vw;
+}
+p
+{
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  font-family:"Lato";
+  font-size:6vw;
+}
+}
