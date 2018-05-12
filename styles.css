@@ -10,6 +10,7 @@ h1{
     font-family:"Lato";
   margin:0px;
   padding:0px;
+  text-align: center;
 
 }
 h2  {
@@ -17,6 +18,7 @@ h2  {
   font-size:60px;
   margin:0px;
   padding:0px;
+  text-align: center;
 }
 p
 {
